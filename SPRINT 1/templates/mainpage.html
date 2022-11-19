@@ -1,0 +1,166 @@
+<html>
+  <div align="center" class="bg">
+    <head>
+      <meta charset="UTF-8" />
+      <center>
+        <!-- <h1><br>Prediction of Flight Delay<br><br></h1> -->
+      </center>
+      <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+      />
+      <style>
+        label {
+          color: tomato;
+        }
+        input {
+          color: black;
+        }
+      </style>
+    </head>
+    <body>
+      <div id="cont">
+        <h1>Welcome</h1>
+        <div id="inputform">
+          <h1 id="#hd">Input Data</h1>
+          <form method="POST" action="/predict">
+            <table>
+              <div>
+                <tr>
+                  <td>
+                    <label for="age">Age</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="age" required />
+                  </td>
+                </tr>
+              </div>
+              <div>
+                <tr>
+                  <td>
+                    <label for="gender">Gender</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input type="radio" name="gender" value="0" />
+                    <label for="html">Male</label>
+                    <input type="radio" name="gender" value="1" />
+                    <label for="css">Female</label>
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="tb">Total Billirubin</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="tb" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="db">Direct Billirubin</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="db" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="ap">Alkaline Phosphate</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="ap" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="aa1">Alamine Aminotransferase</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="aa1" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="aa2">Asparatate Aminotransferase</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="aa2" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="tp">Total Proteins</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="tp" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="a">Albumin</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="a" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <label for="agr">Albumin and Globulin Ratio</label>
+                    <br />
+                  </td>
+                  <td>
+                    <input name="agr" required />
+                  </td>
+                </tr>
+              </div>
+
+              <div>
+                <tr>
+                  <td>
+                    <input type="submit" style="align-items: center" />
+                    <br />
+                  </td>
+                </tr>
+              </div>
+
+              <div id="butn"></div>
+            </table>
+          </form>
+        </div>
+      </div>
+    </body>
+  </div>
+</html>
