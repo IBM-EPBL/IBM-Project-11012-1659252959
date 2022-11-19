@@ -1,0 +1,78 @@
+/* Store this code in 'style.css' file inside the 'static' folder*/
+html {
+    height: 100%;
+  }
+body{
+    height: 100%;
+    margin: 0%;
+    background-image: url("./images/pexels-nur-andi-ravsanjani-gusma-1465904.jpg");
+    background-size: 100%;
+}
+.header{
+    /* padding: 5px 120px; */
+    width: 150px;
+    height: 70px;
+    /* background-color: #236B8E; */
+}
+
+.border{
+    padding: 20px 50px;
+    width: 400px;
+    height: 450px;
+    /* border: 1px solid #236B8E; */
+    border-radius: 0px;
+    /* background-color: #9AC0CD; */
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: tomato;
+    color: #FFFFFF;
+    font-style:Montserrat ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+.textbox{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    color: wheat;
+    background-color:black;
+    border-radius: 10px;
+} 
+    
+::placeholder {
+    color: wheat;
+    opacity: 1;
+    font-style: Montserrat;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.word{
+    color: tomato;
+    font-style: Montserrat;
+    font-weight: bold;
+}
+
+.main{
+    border: 10px double aquamarine;
+}
+
+.bot{
+    color: wheat;
+}
+
+.bottom{
+    color: tomato;
+    font-style: Montserrat;
+    font-weight: bold;
+}
+
+.bg{
+    height: 100%;
+    background-image: url("./images/pexels-oleksandr-pidvalnyi-1004584.jpg");
+    background-size: cover;
+}
